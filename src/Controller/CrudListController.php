@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CrudListController extends AbstractController
 {
-    #[Route('/crud/list', name: 'app_crud_list')]
+    #[Route('/', name: 'app_crud_list')]
     public function index(EntityManagerInterface $em): Response
     {
         $tasks = $em->getRepository(Task::class)->findBy([], ['id' => 'DESC']);
