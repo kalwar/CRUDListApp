@@ -12,6 +12,10 @@ CrudListApp is a very simple app for CRUD operations in Symfony 6.
 4. Visit URL: https://127.0.0.1:8000/ to run the app
 5. Note: You will need to have local database setup to run this app
 
+# Production deployment
+
+CRUDListApp is currently deployed at heroku, https://sheltered-coast-16654.herokuapp.com/
+
 # Tech stack
 
 1.  [Symfony](https://symfony.com/)
